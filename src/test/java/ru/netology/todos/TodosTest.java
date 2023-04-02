@@ -67,7 +67,7 @@ public class TodosTest {
     @Test
     public void shouldMatchesTasksFalse() {
         Task[] expected = {};
-        Task[] actual = todos.search("Нет слвпадений");
+        Task[] actual = todos.search("Нет совпадений");
         Assertions.assertArrayEquals(expected, actual);
     }
 
