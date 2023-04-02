@@ -53,7 +53,7 @@ public class TodosTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-    // 4) Тест на поиск задачи типа Epic
+    // 4) Тест на поиск задачи типа Meeting
 
     @Test
     public void shouldMatchesMeeting() {
